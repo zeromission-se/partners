@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const logoCsv = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRQGarysli_mx8FbYjwa3eYhHdGxy0jb8q9LaMNQOgUqlIy9p1zJxBaIUgoNnN60F0YBom5UQy69eZQ/pub?output=csv";
+  const logoCsv = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQSW0lpI_aWQwZ2lVP1qk9viu0lZDcDMD8MbX8toDoSLSmdO6tOt7QEi_K2Ss4EA0TZfjQBIAEVvb6B/pub?output=csv";
   const container = document.getElementById("slideshowImages");
 
   fetch(logoCsv)
